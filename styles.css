@@ -107,6 +107,9 @@ padding: 10px 20px;
     font-size: 16px;
     border: none;
 }
+.search-bar input:focus{
+    outline: none;
+}
 .search-buttons{
     margin-top: 20px;
 }
@@ -178,4 +181,20 @@ footer{
 }
 .lower-right-footer li{
     margin-right: 15px;
+}
+@media(max-width:650px){
+    .search-bar{
+        width: 90%;
+    }
+    footer{
+        height: 150px;
+    }
+    .upper-footer{
+        height: 50px;
+    }
+    .lower-footer{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
 }
